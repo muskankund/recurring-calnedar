@@ -1,3 +1,8 @@
+import {
+  eachDayOfInterval,
+  getDay,
+} from "date-fns";
+
 const parseNthDay = (nthDay, month, year) => {
     const [ordinal, weekday] = nthDay.split(" ");
     const weekDaysMap = {
